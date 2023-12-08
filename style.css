@@ -622,17 +622,17 @@ video {
   justify-content: center;
 }
 
+.gap-x-8{
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+
 .gap-y-28{
   row-gap: 7rem;
 }
 
 .gap-y-8{
   row-gap: 2rem;
-}
-
-.gap-x-8{
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
 }
 
 .self-center{
