@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- displays site properly based on user's device -->
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+        <link rel="stylesheet" href="style.css">
+
+        <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+        <style>
+                .attribution {
+                        font-size: 11px;
+                        text-align: center;
+                }
+
+                /* .attribution a {
+                        color: hsl(228, 45%, 44%);
+                } */
+        </style>
+</head>
+
+<body class="bg-mobile bg-custom-violet bg-cover bg-no-repeat flex flex-col gap-y-28 md:bg-desktop">
+
+        <div class="container mx-auto p-12 max-w-[1440px] min-w-[375px] text-white">
+                <!-- Header -->
+                <header class="w-52 lg:w-60">
+                        <img class="w-full" src="./images/logo.svg" alt="">
+                </header>
+                <!-- Hero Section -->
+                <section class="my-24 flex flex-col lg:gap-x-16 lg:flex-row">
+                        <div>
+                                <img class="w-full" src="./images/illustration-mockups.svg" alt="">
+                        </div>
+                        <div class="mt-24 flex flex-col gap-y-8 lg:justify-center lg:mt-0 lg:w-1/2">
+                                <h1
+                                        class="text-3xl text-center font-semibold font-headings leading-normal lg:text-left lg:w-2/3">
+                                        Build
+                                        The
+                                        Community Your
+                                        Fans Will Love
+                                </h1>
+                                <p class="text-lg text-center font-body lg:text-left">
+                                        Huddle re-imagines the way we build communities. You have a voice, but so does
+                                        your audience.
+                                        Create connections with your users as you engage in genuine discussion.
+                                </p>
+                                <div class="w-full flex self-center justify-center lg:justify-start">
+                                        <button
+                                                class="bg-white text-custom-violet py-4 px-12 rounded-full shadow-md shadow-purple-900 transition duration-150 w-3/5 lg:w-2/5 hover:bg-custom-softMagenta hover:text-white hover:shadow-pink-900">Register</button>
+                                </div>
+                        </div>
+                </section>
+                <footer class="flex justify-center lg:justify-end">
+                        <div class="flex gap-x-8">
+                                <a href="#">
+                                        <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                                <a href="#">
+                                        <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                                <a href="#">
+                                        <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                        </div>
+                </footer>
+        </div>
+
+        <div>
+                <p class="attribution text-white">
+                        Challenge by <a class="transition duration-300 hover:text-custom-softMagenta"
+                                href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+                                Mentor</a>.
+                        Coded by <a href="#">Faiqzfrn</a>.
+                </p>
+        </div>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
